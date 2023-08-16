@@ -1,0 +1,159 @@
+dtkdeclarative (5.6.15) unstable; urgency=medium
+
+  * feat: add UT for ButtonBox
+  * feat: add UT for ArrowBoxPath
+  * chore: add unit test ut_dquickglow
+  * feat: Add UT for DSoftwareRoundedImageNode
+  * feat: Add UT for DBlitFramebufferNode
+  * chore: add unit test ut-iconlabel
+  * feat: Add toImage function for DBlitFramebufferNode
+  * chore: Can't support alpha for simpleTexture in UT
+  * chore: add unit test ut-iconimage
+  * chore: add unit test ut-dciiconimage
+  * feat: Add UT for MaskEffectNode
+  * chore: add unit test ut_dquickdciicon
+  * fix: Compiling error for missing dependency
+  * feat: Add UT for DSGBlurNode
+  * fix: crash in ut_dquickdciiconimage
+  * feat: Add UT for AppLoader-plugin
+  * fix: PDS is not defined
+  * chore: Remove some file for recoverage
+  * chore: add unit test ut-contextMenuWindow
+  * feat: Add UT for BehindWindowBlur
+  * feat: Add UT for DQuickInWindowBlur
+  * chore: Add unit test ut-dquickcoloroverlay
+  * feat: Add UT for DQuickItemViewport
+  * fix: UT failed sometimes
+  * fix: UT failed in qt6
+  * chore: Add unit test ut_dquickopacitymask
+  * fix: UT failed in qt6 and Software renderer backend
+  * fix:  DQuickItemViewport is error in software renderer
+  * chore: Complementary unit test ut-globalobject
+  * fix: UT failed in qt6
+  * chore(UT): Wait for blur window exposed
+  * fix: UT failed when unreset palette
+  * feat: Add UT for DQuickBlitFrameBuffer
+  * fix: PageIndicator is invalid
+  * feat: Add UT to determine whether QML can load successfully
+  * fix: UT failde sometimes
+  * chore: Complementary unit test ut-dconfigwrapper
+  * feat: Adapt to switch qt6 and qtf for qml-app-template
+
+ -- Yixue Wang <wangyixue@deepin.org>  Fri, 11 Aug 2023 14:06:39 +0800
+
+dtkdeclarative (5.6.14) unstable; urgency=medium
+
+  * fix: typo
+    Thanks to student-ice
+  * feat: Support switching qt5 and qt6 for cmake(Issue: #87)
+  * fix: Unsupported type for property assignment(Issue: #87)
+  * fix: Crashed while debugging in Qt
+  * feat: Support compiling between Qt5 and Qt6(Issue: #87)
+  * feat: Support QQuickPalette in Qt6(Issue: #87)
+  * feat: Forward ContentMenuEvent in Qt6(Issue: #87)
+  * fix: Qt.color is invalid in qt5(Issue: #87)
+  * fix: Imcompatible of the import syntax of Qt6 with Qt5(Issue: #87)
+  * fix: Templates's incompilable
+  * fix: Final property
+  * fix: GraphicalEffect has been droped
+  * fix: Incompilable syntax
+  * fix: Report Network error in qt6(Issue: #87)
+  * fix: Missing Macro for DColor in qt6(Issue: #87)
+  * Fix: Incompilable syntax for qt6(Issue: #87)
+  * Fix: Adapt to qt6 for dtk-exhibition(Issue: #87)
+  * Chore: Rename EnableDtk to EnableQt(Issue: #87)
+  * Fix: Adapt to qt6 for examples(Issue: #87)
+  * fix: Syntax error in qt6(Issue: #87)
+  * fix: ChameleonStyle invalid in qt6(Issue: #87)
+  * feat: Migrate qt5 to qt6 for QSGTexture(Issue: #87)
+  * feat: Forward shaders in qt6(Issue: #87)
+  * feat: Separating qt5 and qt6 for `src`(Issue: #87)
+  * feat: Add macro registing to Qt Meta system(Issue: #87)
+  * refactor: Adjust project structure for qt6(Issue: #87)
+  * feat: Adapt the syntax of `qml import` in qt6(Issue: #87)
+  * fix: TitleBar can't drag in qt6(Issue: #87)
+  * chore: ignore doxygen-theme folder
+    Thanks to LyYeeeYuwu(Issue: #99)
+  * refactor: Remove PixelMetric.js
+  * fix: Remove AboutAction's assignment
+  * chore: Sync by https://github.com/linuxdeepin/.github/commit/559e91167d4919644f37bbcf123eb0651c1528ea(Influence: none)
+  * fix: Missing dtkdeclarative_config.h in dev package
+  * refactor: Deprecate interfaces about PlatformTheme
+  * chore: commit SytledArrowShapeBlur in example
+  * chore: add a log for example
+  * fix: test-recoverage doesn't work
+  * feat: Add unit-test for DAppLoader
+  * chore: put gen header to CMAKE_CURRENT_BINARY_DIR
+  * fix: examples not use qml plugin in source
+  * chore: add icon resouce to example
+  * feat: Add unit-test for qml
+  * fix: unit-test error for color-selector
+  * fix: Missing files to install
+  * fix: Missing Qml registration info in test project
+  * feat: Add ut for DQuickRectangle
+  * feat: Add ut for DQuickWindow and DColor
+  * fix: QuickWindowAttached's enable maybe wrong
+  * feat: Add running property for WaterProgressBar
+  * feat: Add ut for WaterProgressBar
+  * fix: UT memory leak
+  * typo: typo error
+  * feat: Add UT for KeySequence
+  * feat: Add UT for SettingsContainer
+  * fix: Missing dependency for dtkdeclarative
+  * feat: Add UT for ObjectModelProxy
+  * feat: Add UT for MessageManager
+  * fix: Access null object for Action's object
+  * fix: UT memory leak
+
+ -- Deepin Packages Builder <packages@deepin.org>  Thu, 27 Jul 2023 06:56:39 +0000
+
+dtkdeclarative (5.6.12) unstable; urgency=medium
+
+  * fix: a missing library link
+    Thanks to hillwoodroc
+  * feat: Use find_program to find qhelpgenerator and qmlcachegen
+    Thanks to rewine
+  * fix: Missing plugin.json for qml-app-template
+  * fix: qml-app-template wizard failed
+  * fix: Calculation error in DialogTitleBar's width
+  * fix: RadioButton's text color error(Issue: https://github.com/linuxdeepin/dtk/issues/19)
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 15 May 2023 13:51:23 +0800
+
+dtkdeclarative (5.6.10) unstable; urgency=medium
+
+  * Release 5.6.10
+  * FIX dtk#43 dtk#47 dtk#48 dtk#49
+
+ -- Deepin Packages Builder <packages@deepin.com>  Mon, 17 Apr 2023 17:01:17 +0800
+
+dtkdeclarative (5.6.9) unstable; urgency=medium
+
+  * Release 5.6.9
+  * Fix #85
+  * Fix Crashed when reset static property
+  * Fix #117
+
+ -- Deepin Packages Builder <packages@deepin.com>  Tue, 04 Apr 2023 17:06:37 +0800
+
+dtkdeclarative (5.6.8) unstable; urgency=medium
+
+  * Allow custom QML plugin install path
+  * Modify AboutDialog's style
+  * Fix application crashed when WindowButton unload
+  * Change docs from qdoc to doxygen and update docs
+  * Change project manager tool from qmake to cmake
+
+ -- Deepin Packages Builder <packages@deepin.com>  Wed, 22 Feb 2023 16:06:59 +0800
+
+dtkdeclarative (5.6.3) unstable; urgency=medium
+
+  * Release 5.6.3
+
+ -- Deepin Packages Builder <packages@deepin.com>  Tue, 20 Dec 2022 11:36:24 +0800
+
+dtkdeclarative (0.0.1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Deepin Packages Builder <packages@deepin.com>  Wed, 01 Jul 2020 14:14:35 +0800

@@ -1,0 +1,7 @@
+commit_build:
+  steps:
+    - trigger_services:
+        project: home:yeshanshan:test
+        package: %{SCM_REPOSITORY_NAME}
+  filters:
+    event: push
